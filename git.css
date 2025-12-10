@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#box {
+    height: 55px;
+    background-color: rgb(15, 177, 198);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+
+
+
+}
+
+#box .navbar {
+    width: 750px;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#box .navbar li {
+    list-style-type: none;
+
+}
+
+#box .navbar li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+#box .navbar li a:hover {
+    color: rgb(246, 8, 20);
+}
+
+
+
+
+
+
+#footer {
+    height: 700px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/footer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid red;
+    
+
+}
+
+#footer .child {
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid red; */
+    list-style-type: none;
+    text-decoration: none;
+
+
+}
+
+#footer .child h2 {
+
+    font-size: 35px;
+    text-align: center;
+    padding-top: 15px;
+    color: rgb(227, 227, 231);
+    text-transform: capitalize;
+}
+
+#footer .child li {
+    list-style-type: none;
+    /* border: 1px solid red; */
+    font-size: 25px;
+    text-align: center;
+    color: rgb(229, 229, 234);
+}
+
+#footer .child li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 30px;
+    text-align: center;
+    /* border: 1px solid red; */
+
+}
+
+#footer .child p {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+    color: rgb(210, 209, 213);
+}
+
+#footer .child img {
+    padding-top: 130px;
+}
+
+#footer .child iframe {
+    height: 250px;
+    width: 350px;
+    padding-top: 25px;
+}
+
+#footer .child button {
+
+    margin-top: 150px;
+    margin-left: 160px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 15px 33px;
+    background-color: rgb(224, 164, 12);
+}
+
+#footer .child button:hover {
+    color: rgb(211, 69, 9);
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+
+}
+
+
+#container{
+    height: 400px;
+    width: 500px;
+}
